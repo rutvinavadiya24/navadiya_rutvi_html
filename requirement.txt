@@ -1,0 +1,15 @@
+
+amethyst     :  f8ffb5 80dbed a46ab0 2a2828 d48053
+raisin black :  b5ffeb ed8084 acb06a 2a2828 5359d4
+vanilla      :  fff3b5 ed8080 6a80b0 272729 d45353
+indian red   :  fff3b5 ed8080 6a80b0 272729 d45353
+
+
+
+font family1 :https://fonts.google.com/specimen/Alumni+Sans+Collegiate+One
+font family2 :https://fonts.google.com/specimen/Tilt+Neon
+
+
+
+
+
