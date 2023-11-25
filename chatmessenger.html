@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Messenger</title>
+    <style>
+        #chatbox {
+            width: 400px;
+            height: 300px;
+            border: 1px solid gray;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body bgcolor="purple">
+    <div id="chatbox"></div>
+    <input type="text" id="messageInput" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function sendMessage() {
+            var message = $("#messageInput").val();
+            if (message.trim() !== "") {
+                $("#chatbox").append("<p><strong>You:</strong> " + message + "</p>");
+                $("#messageInput").val("");
+                // Sending message to the server
+                // In real-world scenario, you would send this message to a server using APIs or websockets
+                // For simplicity, we are just displaying the sent message
+                // You would need to implement the server-side code to receive and process this message
+                console.log("Sending message to the server:", message);
+            }
+        }
+    </script>
+</body>
+</html>
